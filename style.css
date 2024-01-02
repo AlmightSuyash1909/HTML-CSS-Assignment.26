@@ -1,0 +1,141 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*  CUSTOM STYLES */
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-size:16px;
+    line-height:1.5;
+}
+
+.container{
+    max-width:1100px;
+    margin:0 auto;
+    padding:0 30px;
+}
+.flex{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+/* HEADDER */
+
+.header{
+    background-color:coral;
+    padding:20px 0;
+}
+.nav a {
+    text-decoration:none;
+    color:white;
+    font-size:20px;
+    margin-left:20px;
+}
+.nav ul {
+    justify-content: flex-start;
+    list-style: none;
+}
+
+/* Main  */
+.section{
+    background-color:rgb(212 206 167);
+    padding:40px 0;
+}
+.section .flex {
+    align-items:stretch
+}
+.tab{
+    background-color:rgb(0 89 121);
+    color:white;
+    padding:30px 0;
+    padding-left: 42px;
+    width:30%;
+    box-shadow:7px 7px 10px   black
+}
+.tab li {
+    font-size:20px;
+}
+ol {
+    list-style: decimal;
+    padding-left:42px
+}
+ul {
+    list-style: disc;
+    padding-left:42px
+}
+.sub-m{
+    list-style:square;
+}
+
+.tab-last-menu{
+    list-style-image:url("circle-check-solid.svg");
+}
+
+
+/* dd  */
+dl{
+    font-size:18px;
+}
+dt{
+    font-size:30px;
+}
+dd{
+    margin-left:42px;
+    margin-bottom: 20px;
+}
+/* Footer  */
+
+.footer{
+    background-color: rgb(37 44 34);
+    padding:30px;
+}
